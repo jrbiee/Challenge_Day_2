@@ -1,7 +1,7 @@
 import math
 
 def area_circle(area):
-    area = math.pi*r*r
-    print(f'The area of the circle is {area}')
+    area = round(math.pi*r*r,2)
+    return area    
 r = int(input('Enter in the radius of the circle: '))
 area_circle(area)
